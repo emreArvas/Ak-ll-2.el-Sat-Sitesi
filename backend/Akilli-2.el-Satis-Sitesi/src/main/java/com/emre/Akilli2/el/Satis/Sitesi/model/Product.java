@@ -1,38 +1,61 @@
 package com.emre.Akilli2.el.Satis.Sitesi.model;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
-import java.text.DecimalFormat;
 import java.time.LocalDateTime;
 import java.util.List;
 
 @Entity
+@Table(name = "products")
 @Data
-@Builder
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 public class Product {
+    
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String name;
+    
+    @Column(nullable = false)
+    private String title;
+    
+    @Column(length = 1000)
     private String description;
+    
+    @Column(nullable = false)
     private BigDecimal price;
-    @ManyToOne
-    private Personel personel;
-    @ElementCollection(fetch = FetchType.EAGER)
-    @CollectionTable(
-            name = "product_images",
-            joinColumns = @JoinColumn(name = "product_id")
-    )
-    @Column(name = "image_url")
-    @Size(max = 5)
-    private List<String> imagesUrl;
-    private LocalDateTime dateTime;
+    
+    private String category;
+    
+    private String condition; // Ürünün durumu (yeni, az kullanılmış, kullanılmış vb.)
+    
+    @Column(nullable = false)
+    private Long sellerId; // Satıcı ID'si
+    
+    private String location; // Satış lokasyonu
+    
+    @Column(nullable = false)
+    private LocalDateTime createdAt;
+    
+    private LocalDateTime updatedAt;
+    
+    @Column(columnDefinition = "boolean default true")
+    private boolean active = true;
+    
+    @ElementCollection
+    private List<String> images; // Ürün fotoğrafları
+    
+    @PrePersist
+    protected void onCreate() {
+        createdAt = LocalDateTime.now();
+    }
+    
+    @PreUpdate
+    protected void onUpdate() {
+        updatedAt = LocalDateTime.now();
+    }
 }

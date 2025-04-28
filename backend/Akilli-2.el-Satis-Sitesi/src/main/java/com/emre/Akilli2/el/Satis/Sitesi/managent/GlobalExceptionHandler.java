@@ -1,6 +1,7 @@
 package com.emre.Akilli2.el.Satis.Sitesi.managent;
 
 import com.emre.Akilli2.el.Satis.Sitesi.dto.ApiResponse;
+import com.emre.Akilli2.el.Satis.Sitesi.dto.LoginException;
 import com.emre.Akilli2.el.Satis.Sitesi.exception.EmailException;
 import com.emre.Akilli2.el.Satis.Sitesi.exception.UserNotFoundException;
 import jakarta.servlet.http.HttpServletRequest;
@@ -21,7 +22,7 @@ public class GlobalExceptionHandler {
 
     }
    // 404
-    @ExceptionHandler({UserNotFoundException.class})
+    @ExceptionHandler({UserNotFoundException.class, LoginException.class})
     ResponseEntity<ApiResponse<Void>> notFoundException(RuntimeException ex, HttpServletRequest http){
         ApiResponse response=ApiResponse.<Void>builder().status(404).path(http.getRequestURI())
                 .message(ex.getMessage()).localDateTime(LocalDateTime.now()).build();
