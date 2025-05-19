@@ -32,7 +32,7 @@ public class ProductServiceImpl implements ProductService {
         product.setLocation(request.getLocation());
         product.setImages(request.getImages());
         product.setActive(true);
-        
+
         return productRepository.save(product);
     }
 
@@ -51,7 +51,7 @@ public class ProductServiceImpl implements ProductService {
     @Transactional
     public Product updateProduct(Long id, ProductRequest request) {
         Product product = getProductById(id);
-        
+
         product.setTitle(request.getTitle());
         product.setDescription(request.getDescription());
         product.setPrice(request.getPrice());
@@ -59,7 +59,7 @@ public class ProductServiceImpl implements ProductService {
         product.setCondition(request.getCondition());
         product.setLocation(request.getLocation());
         product.setImages(request.getImages());
-        
+
         return productRepository.save(product);
     }
 
@@ -79,9 +79,9 @@ public class ProductServiceImpl implements ProductService {
     @Override
     public List<Product> searchProducts(String keyword, Double minPrice, Double maxPrice, String category) {
         List<Product> products = productRepository.findByActiveTrue();
-        
+
         return products.stream()
-                .filter(product -> keyword == null || 
+                .filter(product -> keyword == null ||
                         product.getTitle().toLowerCase().contains(keyword.toLowerCase()) ||
                         product.getDescription().toLowerCase().contains(keyword.toLowerCase()))
                 .filter(product -> minPrice == null || product.getPrice().doubleValue() >= minPrice)

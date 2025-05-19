@@ -55,17 +55,30 @@ export default function AddProductPage() {
     });
 
     if (!result.cancelled) {
-      setImage(result.assets[0].uri);
+      const file = result.assets[0];
+      const fileReader = new FileReader();
+      
+      fileReader.onload = () => {
+          setImage(fileReader.result);
+          setErrors(''); // Hata mesajını temizle
+      };
+      
+      fileReader.readAsDataURL(file);
     }
   };
 
   const handleSubmit = () => {
+    if (!title || !description || !price || !location || !image) {
+      setErrors('Lütfen tüm alanları doldurun');
+      return;
+    }
+
     const body = {
       title: title,
       description: description,
       location: location,
       price: price,
-      image: image
+      image: image // Base64 formatındaki resim
     };
 
     addProduct(USERID, body)
@@ -142,8 +155,12 @@ export default function AddProductPage() {
             <TouchableOpacity onPress={handleImagePicker}>
               <Text style={styles.imagePickerButton}>Resim Seç</Text>
             </TouchableOpacity>
-            {image && <Image source={{ uri: image }} style={styles.imagePreview} />}
-          </View>
+            {image && (
+            <Image
+              source={{ uri: `data:image/jpeg;base64,${image}` }}
+              style={styles.imagePreview}
+            />
+          )}
           <Button color='white' title='Ekle' onPress={handleSubmit} />
         </View>
       </ScrollView>

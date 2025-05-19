@@ -1,62 +1,45 @@
-import { Avatar, Card, CardActions, CardContent, CardHeader, CardMedia, Typography, Box, Button } from '@mui/material';
-import React from 'react';
-import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
-import { addCart } from '../server/api';
-import { useNavigate } from 'react-router-dom';
+import React from 'react'
+import { Card, CardContent, CardMedia, Typography, Box, Button, useTheme, useMediaQuery } from '@mui/material'
+import { useNavigate } from 'react-router-dom'
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart'
+import FavoriteIcon from '@mui/icons-material/Favorite'
 
 const ProductsPage = ({ product }) => {
-    const { id, title, description, image, price, location, userId, user, datePosted } = product;
-    const USERID = localStorage.getItem('id');
-    const navigate = useNavigate();
-    
-    const addCartClick = () => {
-        if (userId == USERID) {
-            alert("Kendi Ürününü Sepete Ekleyemezsin");
-        } else {
-            addCart(USERID, id).then((res) => {
-                if (res.status == 200) {
-                    alert("Ürün Sepete Eklendi");
-                    navigate("/carts");
-                }
-            }).catch((err) => { });
-        }
-    };
+    const { title, description, price, image, location } = product
+    const navigate = useNavigate()
+    const theme = useTheme()
+    const isMobile = useMediaQuery(theme.breakpoints.down('sm'))
+
+    const handleClick = () => {
+        navigate(`/product/${product.id}`)
+    }
 
     return (
         <Card 
-            sx={{ 
-                width: 280,
-                height: 'auto',
+            onClick={handleClick}
+            sx={{
+                width: '100%',
+                height: '100%',
                 display: 'flex',
                 flexDirection: 'column',
-                justifyContent: 'space-between',
-                borderRadius: 3,
-                boxShadow: '0 2px 12px 0 rgba(0,0,0,0.06)',
-                transition: 'transform 0.2s',
+                cursor: 'pointer',
+                transition: 'all 0.3s ease-in-out',
                 '&:hover': {
-                    transform: 'translateY(-6px) scale(1.03)',
-                },
-                backgroundColor: 'secondary.main',
-                m: 'auto'
+                    transform: 'translateY(-8px)',
+                    boxShadow: '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
+                }
             }}
         >
-            <CardHeader
-                avatar={
-                    <Avatar 
-                        sx={{ 
-                            bgcolor: 'primary.main',
-                            width: 40,
-                            height: 40
-                        }}
-                    >
-                        {user.username.charAt(0).toUpperCase()}
-                    </Avatar>
-                }
-                title={<Typography variant="subtitle1" sx={{ fontWeight: 600, color: 'primary.main' }}>{user.username}</Typography>}
-                subheader={<Typography variant="caption" color="text.secondary">{new Date(datePosted).toLocaleDateString('tr-TR')}</Typography>}
-                sx={{ pb: 0 }}
-            />
-            <Box sx={{ width: '100%', height: 140, position: 'relative', mb: 1, mt: 1, bgcolor: 'secondary.light', borderRadius: 2 }}>
+            <Box sx={{ 
+                width: '100%', 
+                height: isMobile ? 180 : 220, 
+                position: 'relative', 
+                mb: 1, 
+                mt: 1, 
+                bgcolor: 'secondary.light', 
+                borderRadius: 2,
+                overflow: 'hidden'
+            }}>
                 {image && image.includes('image') ? (
                     <CardMedia
                         component="img"
@@ -68,6 +51,10 @@ const ProductsPage = ({ product }) => {
                             objectFit: 'contain',
                             borderRadius: 2,
                             background: 'secondary.light',
+                            transition: 'transform 0.3s ease-in-out',
+                            '&:hover': {
+                                transform: 'scale(1.05)'
+                            }
                         }}
                     />
                 ) : image && image.includes('video') ? (
@@ -85,72 +72,109 @@ const ProductsPage = ({ product }) => {
                     </video>
                 ) : null}
             </Box>
-            <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
-                <CardContent sx={{ flexGrow: 1, p: 2, pt: 0 }}>
+            <CardContent sx={{ 
+                flexGrow: 1, 
+                p: { xs: 1.5, sm: 2 }, 
+                pt: 0,
+                display: 'flex',
+                flexDirection: 'column',
+                gap: 1
+            }}>
+                <Typography 
+                    variant="h6" 
+                    component="div"
+                    sx={{ 
+                        fontWeight: 600,
+                        overflow: 'hidden',
+                        textOverflow: 'ellipsis',
+                        display: '-webkit-box',
+                        WebkitLineClamp: 1,
+                        WebkitBoxOrient: 'vertical',
+                        color: 'primary.main',
+                        fontSize: { xs: '1rem', sm: '1.1rem' }
+                    }}
+                >
+                    {title}
+                </Typography>
+                <Typography 
+                    variant="body2" 
+                    color="text.secondary"
+                    sx={{ 
+                        overflow: 'hidden',
+                        textOverflow: 'ellipsis',
+                        display: '-webkit-box',
+                        WebkitLineClamp: 2,
+                        WebkitBoxOrient: 'vertical',
+                        fontSize: { xs: '0.875rem', sm: '0.9rem' }
+                    }}
+                >
+                    {description}
+                </Typography>
+                <Typography 
+                    variant="body2" 
+                    color="text.secondary"
+                    sx={{ 
+                        fontSize: { xs: '0.875rem', sm: '0.9rem' },
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: 0.5
+                    }}
+                >
+                    📍 {location}
+                </Typography>
+                <Box sx={{ 
+                    mt: 'auto',
+                    pt: 1,
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    alignItems: 'center'
+                }}>
                     <Typography 
-                        gutterBottom 
                         variant="h6" 
-                        component="div"
                         sx={{ 
-                            fontWeight: 600,
-                            mb: 1,
-                            overflow: 'hidden',
-                            textOverflow: 'ellipsis',
-                            display: '-webkit-box',
-                            WebkitLineClamp: 1,
-                            WebkitBoxOrient: 'vertical',
-                            color: 'primary.main'
+                            fontWeight: 700, 
+                            color: 'primary.main',
+                            fontSize: { xs: '1.1rem', sm: '1.25rem' }
                         }}
-                    >
-                        {title}
-                    </Typography>
-                    <Typography 
-                        variant="body2" 
-                        color="text.secondary"
-                        sx={{ 
-                            mb: 1,
-                            overflow: 'hidden',
-                            textOverflow: 'ellipsis',
-                            display: '-webkit-box',
-                            WebkitLineClamp: 2,
-                            WebkitBoxOrient: 'vertical'
-                        }}
-                    >
-                        {description}
-                    </Typography>
-                    <Typography 
-                        variant="body2" 
-                        color="text.secondary"
-                        sx={{ mb: 1 }}
-                    >
-                        {location}
-                    </Typography>
-                    <Typography 
-                        variant="h6" 
-                        sx={{ fontWeight: 700, mt: 1, color: 'primary.main' }}
                     >
                         {price} TL
                     </Typography>
-                </CardContent>
-                <CardActions sx={{ p: 2, pt: 0 }}>
-                    <Button
-                        fullWidth
-                        variant="contained"
-                        color="primary"
-                        startIcon={<AddShoppingCartIcon />}
-                        onClick={addCartClick}
-                        sx={{
-                            fontWeight: 600,
-                            fontSize: 16,
-                            borderRadius: 2
-                        }}
-                    >
-                        Sepete Ekle
-                    </Button>
-                </CardActions>
-            </Box>
+                    <Box sx={{ display: 'flex', gap: 1 }}>
+                        <Button
+                            size="small"
+                            variant="outlined"
+                            sx={{
+                                minWidth: 'auto',
+                                p: 0.5,
+                                borderColor: 'primary.main',
+                                color: 'primary.main',
+                                '&:hover': {
+                                    borderColor: 'primary.dark',
+                                    backgroundColor: 'rgba(249, 115, 22, 0.08)',
+                                }
+                            }}
+                        >
+                            <FavoriteIcon fontSize="small" />
+                        </Button>
+                        <Button
+                            size="small"
+                            variant="contained"
+                            sx={{
+                                minWidth: 'auto',
+                                p: 0.5,
+                                background: 'linear-gradient(45deg, #f97316 30%, #fb923c 90%)',
+                                '&:hover': {
+                                    background: 'linear-gradient(45deg, #ea580c 30%, #f97316 90%)',
+                                }
+                            }}
+                        >
+                            <ShoppingCartIcon fontSize="small" />
+                        </Button>
+                    </Box>
+                </Box>
+            </CardContent>
         </Card>
-    );
-};
+    )
+}
 
-export default ProductsPage;
+export default ProductsPage
