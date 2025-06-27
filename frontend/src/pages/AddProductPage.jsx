@@ -1,10 +1,11 @@
-import { Button, Container, TextField, Select, MenuItem, FormControl, InputLabel, Box, CircularProgress } from '@mui/material';
+import { Button, Container, TextField, Select, MenuItem, FormControl, InputLabel, Box, CircularProgress, Paper, Typography, Fade } from '@mui/material';
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { Link, useNavigate } from 'react-router-dom';
 import { addProduct } from '../server/api';
 import { analyzeImage } from '../utils/geminiApi';
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
+import { motion } from 'framer-motion';
 
 const AddProductPage = () => {
     const turkishCities = [
@@ -93,95 +94,233 @@ const AddProductPage = () => {
     }
 
     return (
-        <div>
+        <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+            transition={{ duration: 0.3 }}
+        >
             <div className={errors?.Description != null ? 'error-m' : ""}>{errors?.Description}</div>
             <div className={errors?.Title != null ? 'error-m' : ""}>{errors?.Title}</div>
             <div className={errors?.Location != null ? 'error-m' : ""}>{errors?.Location}</div>
             <div className={errors?.Price != null ? 'error-m' : ""}>{errors?.Price}</div>
             {isLogin ?
-                <form className='product-form'>
-                    <h1 id='title'>ARVAS</h1>
-                    <h3 id='title'>Ürün Ekle</h3>
-                    <Container id='form-container'>
-                        <label><h3>Başlık</h3></label>
-                        <TextField onChange={inputChange} name='title'></TextField>
-                    </Container>
+                <Paper 
+                    elevation={3}
+                    sx={{
+                        maxWidth: 800,
+                        mx: 'auto',
+                        p: 4,
+                        mt: 4,
+                        borderRadius: 2,
+                        background: 'rgba(255, 255, 255, 0.9)',
+                        backdropFilter: 'blur(10px)',
+                    }}
+                >
+                    <motion.div
+                        initial={{ opacity: 0, scale: 0.9 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ delay: 0.2 }}
+                    >
+                        <Typography variant="h1" align="center" gutterBottom sx={{ color: 'primary.main', mb: 4 }}>
+                            ARVAS
+                        </Typography>
+                        <Typography variant="h2" align="center" gutterBottom sx={{ mb: 4 }}>
+                            Ürün Ekle
+                        </Typography>
+                    </motion.div>
 
-                    <Container id='form-container'>
-                        <label><h3>Açıklama</h3></label>
-                        <TextField onChange={inputChange} name='description' multiline
-                            rows={4}
-                            sx={{ maxHeight: 200, overflow: 'auto' }}></TextField>
-                    </Container>
-
-                    <Container id='form-container'>
-                        <label><h3>Fiyat</h3></label>
-                        <Box sx={{ display: 'flex', gap: 2, alignItems: 'center' }}>
+                    <Box component="form" className='product-form' sx={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
+                        <motion.div
+                            initial={{ opacity: 0, x: -20 }}
+                            animate={{ opacity: 1, x: 0 }}
+                            transition={{ delay: 0.3 }}
+                        >
+                            <Typography variant="h3" gutterBottom>Başlık</Typography>
                             <TextField 
-                                type='number' 
+                                fullWidth 
                                 onChange={inputChange} 
-                                name='price'
-                                value={body.price || ''}
-                                sx={{ flex: 1 }}
+                                name='title'
+                                variant="outlined"
+                                sx={{ 
+                                    '& .MuiOutlinedInput-root': {
+                                        '&:hover fieldset': {
+                                            borderColor: 'primary.main',
+                                        },
+                                    },
+                                }}
                             />
-                            <Button
-                                variant="contained"
-                                onClick={handleAnalyzeImage}
-                                disabled={isAnalyzing || !selectedImage}
-                                startIcon={isAnalyzing ? <CircularProgress size={20} color="inherit" /> : <AutoAwesomeIcon />}
+                        </motion.div>
+
+                        <motion.div
+                            initial={{ opacity: 0, x: -20 }}
+                            animate={{ opacity: 1, x: 0 }}
+                            transition={{ delay: 0.4 }}
+                        >
+                            <Typography variant="h3" gutterBottom>Açıklama</Typography>
+                            <TextField 
+                                fullWidth
+                                onChange={inputChange} 
+                                name='description' 
+                                multiline
+                                rows={4}
+                                variant="outlined"
+                                sx={{ 
+                                    '& .MuiOutlinedInput-root': {
+                                        '&:hover fieldset': {
+                                            borderColor: 'primary.main',
+                                        },
+                                    },
+                                }}
+                            />
+                        </motion.div>
+
+                        <motion.div
+                            initial={{ opacity: 0, x: -20 }}
+                            animate={{ opacity: 1, x: 0 }}
+                            transition={{ delay: 0.5 }}
+                        >
+                            <Typography variant="h3" gutterBottom>Fiyat</Typography>
+                            <Box sx={{ display: 'flex', gap: 2, alignItems: 'center' }}>
+                                <TextField 
+                                    fullWidth
+                                    type='number' 
+                                    onChange={inputChange} 
+                                    name='price'
+                                    value={body.price || ''}
+                                    variant="outlined"
+                                    sx={{ 
+                                        '& .MuiOutlinedInput-root': {
+                                            '&:hover fieldset': {
+                                                borderColor: 'primary.main',
+                                            },
+                                        },
+                                    }}
+                                />
+                                <Button
+                                    variant="contained"
+                                    onClick={handleAnalyzeImage}
+                                    disabled={isAnalyzing || !selectedImage}
+                                    startIcon={isAnalyzing ? <CircularProgress size={20} color="inherit" /> : <AutoAwesomeIcon />}
+                                    sx={{
+                                        background: 'linear-gradient(45deg, #f97316 30%, #fb923c 90%)',
+                                        '&:hover': {
+                                            background: 'linear-gradient(45deg, #ea580c 30%, #f97316 90%)',
+                                        },
+                                        minWidth: 200,
+                                    }}
+                                >
+                                    {isAnalyzing ? 'Analiz Ediliyor...' : 'AI ile Fiyat Belirle'}
+                                </Button>
+                            </Box>
+                        </motion.div>
+
+                        <motion.div
+                            initial={{ opacity: 0, x: -20 }}
+                            animate={{ opacity: 1, x: 0 }}
+                            transition={{ delay: 0.6 }}
+                        >
+                            <Typography variant="h3" gutterBottom>Konum</Typography>
+                            <FormControl fullWidth>
+                                <Select
+                                    value={selectedLocation}
+                                    onChange={handleLocationChange}
+                                    variant="outlined"
+                                    sx={{ 
+                                        '& .MuiOutlinedInput-notchedOutline': {
+                                            '&:hover': {
+                                                borderColor: 'primary.main',
+                                            },
+                                        },
+                                    }}
+                                >
+                                    {turkishCities.map(city => (
+                                        <MenuItem key={city} value={city}>{city}</MenuItem>
+                                    ))}
+                                </Select>
+                            </FormControl>
+                        </motion.div>
+
+                        <motion.div
+                            initial={{ opacity: 0, x: -20 }}
+                            animate={{ opacity: 1, x: 0 }}
+                            transition={{ delay: 0.7 }}
+                        >
+                            <Typography variant="h3" gutterBottom>Resim</Typography>
+                            <Box
                                 sx={{
+                                    border: '2px dashed',
+                                    borderColor: 'primary.main',
+                                    borderRadius: 2,
+                                    p: 3,
+                                    textAlign: 'center',
+                                    cursor: 'pointer',
+                                    '&:hover': {
+                                        borderColor: 'primary.dark',
+                                        backgroundColor: 'rgba(249, 115, 22, 0.04)',
+                                    },
+                                }}
+                                component="label"
+                            >
+                                <input
+                                    type="file"
+                                    hidden
+                                    onChange={handleChangeImage}
+                                    accept="image/*"
+                                />
+                                <Typography>
+                                    {selectedImage ? 'Resmi değiştirmek için tıklayın' : 'Resim yüklemek için tıklayın'}
+                                </Typography>
+                            </Box>
+                            <Fade in={!!selectedImage}>
+                                <Box sx={{ mt: 2, textAlign: 'center' }}>
+                                    <img 
+                                        src={selectedImage} 
+                                        alt="Yüklenen ürün" 
+                                        style={{ 
+                                            maxWidth: '300px', 
+                                            maxHeight: '300px', 
+                                            objectFit: 'contain',
+                                            borderRadius: '8px',
+                                            boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)',
+                                        }} 
+                                    />
+                                </Box>
+                            </Fade>
+                        </motion.div>
+
+                        <motion.div
+                            initial={{ opacity: 0, y: 20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ delay: 0.8 }}
+                        >
+                            <Button 
+                                onClick={productAdd} 
+                                variant='contained'
+                                fullWidth
+                                size="large"
+                                sx={{
+                                    mt: 2,
+                                    py: 1.5,
                                     background: 'linear-gradient(45deg, #f97316 30%, #fb923c 90%)',
                                     '&:hover': {
                                         background: 'linear-gradient(45deg, #ea580c 30%, #f97316 90%)',
-                                    }
+                                    },
                                 }}
                             >
-                                {isAnalyzing ? 'Analiz Ediliyor...' : 'AI ile Fiyat Belirle'}
+                                Ürünü Ekle
                             </Button>
-                        </Box>
-                    </Container>
-
-                    <Container id='form-container'>
-                        <FormControl>
-                            <label><h3>Konum</h3></label>
-                            <Select
-                                labelId="location-label"
-                                id="location-select"
-                                value={selectedLocation}
-                                onChange={handleLocationChange}
-                            >
-                                {turkishCities.map(city => (
-                                    <MenuItem key={city} value={city}>{city}</MenuItem>
-                                ))}
-                            </Select>
-                        </FormControl>
-                    </Container>
-
-                    <Container id='form-container'>
-                        <label><h3>Resim</h3></label>
-                        <input onChange={handleChangeImage} name='image' type='file'></input>
-                        {selectedImage && (
-                            <Box sx={{ mt: 2, textAlign: 'center' }}>
-                                <img 
-                                    src={selectedImage} 
-                                    alt="Yüklenen ürün" 
-                                    style={{ 
-                                        maxWidth: '300px', 
-                                        maxHeight: '300px', 
-                                        objectFit: 'contain',
-                                        border: '1px solid #ddd',
-                                        borderRadius: '8px',
-                                        padding: '8px'
-                                    }} 
-                                />
-                            </Box>
-                        )}
-                    </Container>
-
-                    <Button onClick={productAdd} id='product-button' variant='contained'>Ürünü Ekle</Button>
-                </form> :
-                <Link to="/admin-login">Bu Sayfayi Görüntüleme Yetkiniz Yok Giriş Yap</Link>}
-        </div>
+                        </motion.div>
+                    </Box>
+                </Paper> :
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                >
+                    <Link to="/admin-login">Bu Sayfayi Görüntüleme Yetkiniz Yok Giriş Yap</Link>
+                </motion.div>}
+        </motion.div>
     )
 }
 

@@ -1,6 +1,6 @@
-import { useState } from 'react'
+import { useState, useMemo } from 'react'
 import { Route, Routes } from 'react-router-dom'
-import { Box, Container, CssBaseline, ThemeProvider, createTheme } from '@mui/material'
+import { Box, Container, CssBaseline, ThemeProvider, createTheme, IconButton } from '@mui/material'
 import './App.css'
 import LoginPage from './pages/LoginPage'
 import CreateUserPage from './pages/CreateUserPage'
@@ -11,6 +11,11 @@ import MyProductsPage from './pages/MyProductsPage'
 import MyCartsPage from './pages/MyCartsPage'
 import MyOrdersPage from './pages/MyOrdersPage'
 import InComingOrdersPage from './pages/InComingOrdersPage'
+import ProductDetailPage from './pages/ProductDetailPage'
+import { lightTheme, darkTheme } from './theme/theme'
+import Brightness4Icon from '@mui/icons-material/Brightness4'
+import Brightness7Icon from '@mui/icons-material/Brightness7'
+import { AnimatePresence } from 'framer-motion'
 
 const theme = createTheme({
   palette: {
@@ -212,28 +217,50 @@ const theme = createTheme({
 })
 
 function App() {
+  const [mode, setMode] = useState('light')
+  const theme = useMemo(() => (mode === 'light' ? lightTheme : darkTheme), [mode])
+
+  const toggleColorMode = () => {
+    setMode((prevMode) => (prevMode === 'light' ? 'dark' : 'light'))
+  }
+
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
+      <Box
+        sx={{
+          position: 'fixed',
+          top: 16,
+          right: 16,
+          zIndex: 1000,
+        }}
+      >
+        <IconButton onClick={toggleColorMode} color="inherit">
+          {mode === 'dark' ? <Brightness7Icon /> : <Brightness4Icon />}
+        </IconButton>
+      </Box>
       <Box sx={{ 
         display: 'flex', 
         flexDirection: 'column', 
         minHeight: '100vh',
         bgcolor: 'background.default',
-        background: 'linear-gradient(135deg, #ffffff 0%, #f8fafc 100%)'
+        background: '#ffffff'
       }}>
         <TopBar />
         <Container maxWidth="lg" sx={{ flex: 1, py: 4 }}>
-          <Routes>
-            <Route path='/productAdd' element={<AddProductPage />} />
-            <Route path='/' element={<HomePage />} />
-            <Route path='/login' element={<LoginPage />} />
-            <Route path='/createuser' element={<CreateUserPage />} />
-            <Route path='/myproducts' element={<MyProductsPage />} />
-            <Route path='/carts' element={<MyCartsPage />} />
-            <Route path='/myorders' element={<MyOrdersPage />} />
-            <Route path='/incomingorders' element={<InComingOrdersPage />} />
-          </Routes>
+          <AnimatePresence mode="wait">
+            <Routes>
+              <Route path='/productAdd' element={<AddProductPage />} />
+              <Route path='/' element={<HomePage />} />
+              <Route path='/login' element={<LoginPage />} />
+              <Route path='/createuser' element={<CreateUserPage />} />
+              <Route path='/myproducts' element={<MyProductsPage />} />
+              <Route path='/carts' element={<MyCartsPage />} />
+              <Route path='/myorders' element={<MyOrdersPage />} />
+              <Route path='/incomingorders' element={<InComingOrdersPage />} />
+              <Route path='/product/:id' element={<ProductDetailPage />} />
+            </Routes>
+          </AnimatePresence>
         </Container>
       </Box>
     </ThemeProvider>

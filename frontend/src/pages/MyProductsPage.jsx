@@ -1,30 +1,99 @@
 import React, { useEffect, useState } from 'react'
 import { getProductsForUser } from '../server/api';
 import MyProductListPage from '../component/MyProductListPage';
+import { Container, Typography, Box, Grid } from '@mui/material';
+import { motion } from 'framer-motion';
 
 const MyProductsPage = () => {
     const id = localStorage.getItem('id');
     const isLogin = localStorage.getItem('isLogin');
     const [products, setProducts] = useState([]);
+
     useEffect(() => {
-          getProductsForUser(id)
+        getProductsForUser(id)
             .then((res) => {
                 setProducts(res.data);
             })
             .catch((err) => {
                 console.error("Error fetching products:", err);
             });
-    }, [])
-    console.log(products);
-  return (
-    <div>
-          <div id='products'>
-              {products.map((product, index) => {
-                  return <MyProductListPage key={index} product={product}></MyProductListPage>
-              })}
-      </div>
-    </div>
-  )
+    }, []);
+
+    return (
+        <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+            transition={{ duration: 0.3 }}
+        >
+            <Container maxWidth="lg" sx={{ py: { xs: 2, sm: 3, md: 4 } }}>
+                <Box sx={{ 
+                    mb: { xs: 3, sm: 4 },
+                    textAlign: { xs: 'center', sm: 'left' }
+                }}>
+                    <Typography 
+                        variant="h4" 
+                        component="h1" 
+                        sx={{ 
+                            fontWeight: 700,
+                            mb: 2,
+                            color: 'text.primary',
+                            fontSize: { xs: '1.75rem', sm: '2rem', md: '2.5rem' },
+                            background: 'linear-gradient(45deg, #f97316 30%, #fb923c 90%)',
+                            WebkitBackgroundClip: 'text',
+                            WebkitTextFillColor: 'transparent',
+                            display: 'inline-block'
+                        }}
+                    >
+                        Ürünlerim
+                    </Typography>
+                </Box>
+
+                <Grid 
+                    container 
+                    spacing={{ xs: 2, sm: 3, md: 4 }}
+                    sx={{
+                        '& > .MuiGrid-item': {
+                            display: 'flex',
+                            justifyContent: 'center'
+                        }
+                    }}
+                >
+                    {products.length > 0 ? (
+                        products.map((product, index) => (
+                            <Grid item xs={12} sm={6} md={4} lg={3} key={index}>
+                                <motion.div
+                                    initial={{ opacity: 0, y: 20 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                    transition={{ delay: index * 0.1 }}
+                                >
+                                    <MyProductListPage product={product} />
+                                </motion.div>
+                            </Grid>
+                        ))
+                    ) : (
+                        <Grid item xs={12}>
+                            <Box sx={{ 
+                                textAlign: 'center',
+                                py: 4,
+                                color: 'text.secondary',
+                                backgroundColor: 'rgba(249, 115, 22, 0.05)',
+                                borderRadius: '12px',
+                                border: '1px solid rgba(249, 115, 22, 0.1)'
+                            }}>
+                                <Typography variant="h6" sx={{ 
+                                    color: 'primary.main',
+                                    fontWeight: 500
+                                }}>
+                                    Henüz ürününüz bulunmuyor
+                                </Typography>
+                            </Box>
+                        </Grid>
+                    )}
+                </Grid>
+            </Container>
+        </motion.div>
+    )
 }
 
 export default MyProductsPage

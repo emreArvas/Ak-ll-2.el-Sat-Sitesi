@@ -1,0 +1,334 @@
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\appsettings.Development.json
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\appsettings.json
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Loginoperations.exe
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Loginoperations.deps.json
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Loginoperations.runtimeconfig.json
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Loginoperations.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Loginoperations.pdb
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Humanizer.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Microsoft.Data.Sqlite.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Microsoft.OpenApi.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Mono.TextTemplating.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\SQLitePCLRaw.core.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\System.CodeDom.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\System.Security.Permissions.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Toolbelt.EntityFrameworkCore.AnnotationBasedModelBuilder.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Toolbelt.EntityFrameworkCore.IndexAttribute.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Toolbelt.EntityFrameworkCore.IndexAttribute.Attribute.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\alpine-arm\native\libe_sqlite3.so
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\alpine-arm64\native\libe_sqlite3.so
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\browser-wasm\nativeassets\net7.0\e_sqlite3.a
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\obj\Release\net7.0\Loginoperations.csproj.AssemblyReference.cache
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\obj\Release\net7.0\Loginoperations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\obj\Release\net7.0\Loginoperations.AssemblyInfoInputs.cache
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\obj\Release\net7.0\Loginoperations.AssemblyInfo.cs
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\obj\Release\net7.0\Loginoperations.csproj.CoreCompileInputs.cache
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\obj\Release\net7.0\Loginoperations.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\obj\Release\net7.0\Loginoperations.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\obj\Release\net7.0\staticwebassets\msbuild.Loginoperations.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\obj\Release\net7.0\staticwebassets\msbuild.build.Loginoperations.props
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\obj\Release\net7.0\staticwebassets\msbuild.buildMultiTargeting.Loginoperations.props
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\obj\Release\net7.0\staticwebassets\msbuild.buildTransitive.Loginoperations.props
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\obj\Release\net7.0\staticwebassets.pack.json
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\obj\Release\net7.0\staticwebassets.build.json
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\obj\Release\net7.0\staticwebassets.development.json
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\obj\Release\net7.0\scopedcss\bundle\Loginoperations.styles.css
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\obj\Release\net7.0\Loginoperations.csproj.CopyComplete
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\obj\Release\net7.0\Loginoperations.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\obj\Release\net7.0\refint\Loginoperations.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\obj\Release\net7.0\Loginoperations.pdb
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\obj\Release\net7.0\Loginoperations.genruntimeconfig.cache
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\obj\Release\net7.0\ref\Loginoperations.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\SQLite-net.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\SQLitePCLRaw.nativelibrary.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Azure.Core.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Azure.Identity.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Microsoft.Identity.Client.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\System.Drawing.Common.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\System.Memory.Data.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\System.Runtime.Caching.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\System.Windows.Extensions.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Furkan Can\Documents\c101\Loginoperations\Loginoperations\bin\Release\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\appsettings.Development.json
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\appsettings.json
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Loginoperations.exe
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Loginoperations.deps.json
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Loginoperations.runtimeconfig.json
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Loginoperations.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Loginoperations.pdb
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Azure.Core.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Azure.Identity.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Humanizer.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Microsoft.Data.Sqlite.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Microsoft.Identity.Client.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Microsoft.OpenApi.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Mono.TextTemplating.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Npgsql.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\SQLite-net.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\SQLitePCLRaw.nativelibrary.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\SQLitePCLRaw.core.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\System.CodeDom.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\System.Drawing.Common.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\System.Memory.Data.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\System.Runtime.Caching.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\System.Security.Permissions.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\System.Windows.Extensions.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Toolbelt.EntityFrameworkCore.AnnotationBasedModelBuilder.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Toolbelt.EntityFrameworkCore.IndexAttribute.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\Toolbelt.EntityFrameworkCore.IndexAttribute.Attribute.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\alpine-arm\native\libe_sqlite3.so
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\alpine-arm64\native\libe_sqlite3.so
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\browser-wasm\nativeassets\net7.0\e_sqlite3.a
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\bin\Release\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\obj\Release\net7.0\Loginoperations.csproj.AssemblyReference.cache
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\obj\Release\net7.0\Loginoperations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\obj\Release\net7.0\Loginoperations.AssemblyInfoInputs.cache
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\obj\Release\net7.0\Loginoperations.AssemblyInfo.cs
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\obj\Release\net7.0\Loginoperations.csproj.CoreCompileInputs.cache
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\obj\Release\net7.0\Loginoperations.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\obj\Release\net7.0\Loginoperations.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\obj\Release\net7.0\staticwebassets\msbuild.Loginoperations.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\obj\Release\net7.0\staticwebassets\msbuild.build.Loginoperations.props
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\obj\Release\net7.0\staticwebassets\msbuild.buildMultiTargeting.Loginoperations.props
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\obj\Release\net7.0\staticwebassets\msbuild.buildTransitive.Loginoperations.props
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\obj\Release\net7.0\staticwebassets.pack.json
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\obj\Release\net7.0\staticwebassets.build.json
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\obj\Release\net7.0\staticwebassets.development.json
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\obj\Release\net7.0\scopedcss\bundle\Loginoperations.styles.css
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\obj\Release\net7.0\Loginoperations.csproj.CopyComplete
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\obj\Release\net7.0\Loginoperations.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\obj\Release\net7.0\refint\Loginoperations.dll
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\obj\Release\net7.0\Loginoperations.pdb
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\obj\Release\net7.0\Loginoperations.genruntimeconfig.cache
+C:\Users\Furkan Can\Desktop\Akilli 2.el satıs\backend\obj\Release\net7.0\ref\Loginoperations.dll
+C:\akillisatis\backend\bin\Release\net7.0\appsettings.Development.json
+C:\akillisatis\backend\bin\Release\net7.0\appsettings.json
+C:\akillisatis\backend\bin\Release\net7.0\Loginoperations.exe
+C:\akillisatis\backend\bin\Release\net7.0\Loginoperations.deps.json
+C:\akillisatis\backend\bin\Release\net7.0\Loginoperations.runtimeconfig.json
+C:\akillisatis\backend\bin\Release\net7.0\Loginoperations.dll
+C:\akillisatis\backend\bin\Release\net7.0\Loginoperations.pdb
+C:\akillisatis\backend\bin\Release\net7.0\Azure.Core.dll
+C:\akillisatis\backend\bin\Release\net7.0\Azure.Identity.dll
+C:\akillisatis\backend\bin\Release\net7.0\Humanizer.dll
+C:\akillisatis\backend\bin\Release\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\akillisatis\backend\bin\Release\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\akillisatis\backend\bin\Release\net7.0\Microsoft.Data.SqlClient.dll
+C:\akillisatis\backend\bin\Release\net7.0\Microsoft.Data.Sqlite.dll
+C:\akillisatis\backend\bin\Release\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\akillisatis\backend\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\akillisatis\backend\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\akillisatis\backend\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\akillisatis\backend\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\akillisatis\backend\bin\Release\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\akillisatis\backend\bin\Release\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\akillisatis\backend\bin\Release\net7.0\Microsoft.Identity.Client.dll
+C:\akillisatis\backend\bin\Release\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\akillisatis\backend\bin\Release\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\akillisatis\backend\bin\Release\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\akillisatis\backend\bin\Release\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\akillisatis\backend\bin\Release\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\akillisatis\backend\bin\Release\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\akillisatis\backend\bin\Release\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\akillisatis\backend\bin\Release\net7.0\Microsoft.OpenApi.dll
+C:\akillisatis\backend\bin\Release\net7.0\Microsoft.SqlServer.Server.dll
+C:\akillisatis\backend\bin\Release\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\akillisatis\backend\bin\Release\net7.0\Mono.TextTemplating.dll
+C:\akillisatis\backend\bin\Release\net7.0\Npgsql.dll
+C:\akillisatis\backend\bin\Release\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\akillisatis\backend\bin\Release\net7.0\SQLite-net.dll
+C:\akillisatis\backend\bin\Release\net7.0\SQLitePCLRaw.batteries_v2.dll
+C:\akillisatis\backend\bin\Release\net7.0\SQLitePCLRaw.nativelibrary.dll
+C:\akillisatis\backend\bin\Release\net7.0\SQLitePCLRaw.core.dll
+C:\akillisatis\backend\bin\Release\net7.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\akillisatis\backend\bin\Release\net7.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\akillisatis\backend\bin\Release\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\akillisatis\backend\bin\Release\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\akillisatis\backend\bin\Release\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\akillisatis\backend\bin\Release\net7.0\System.CodeDom.dll
+C:\akillisatis\backend\bin\Release\net7.0\System.Configuration.ConfigurationManager.dll
+C:\akillisatis\backend\bin\Release\net7.0\System.Drawing.Common.dll
+C:\akillisatis\backend\bin\Release\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\akillisatis\backend\bin\Release\net7.0\System.Memory.Data.dll
+C:\akillisatis\backend\bin\Release\net7.0\System.Runtime.Caching.dll
+C:\akillisatis\backend\bin\Release\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\akillisatis\backend\bin\Release\net7.0\System.Security.Permissions.dll
+C:\akillisatis\backend\bin\Release\net7.0\System.Windows.Extensions.dll
+C:\akillisatis\backend\bin\Release\net7.0\Toolbelt.EntityFrameworkCore.AnnotationBasedModelBuilder.dll
+C:\akillisatis\backend\bin\Release\net7.0\Toolbelt.EntityFrameworkCore.IndexAttribute.dll
+C:\akillisatis\backend\bin\Release\net7.0\Toolbelt.EntityFrameworkCore.IndexAttribute.Attribute.dll
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\alpine-arm\native\libe_sqlite3.so
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\alpine-arm64\native\libe_sqlite3.so
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\browser-wasm\nativeassets\net7.0\e_sqlite3.a
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\akillisatis\backend\bin\Release\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\akillisatis\backend\obj\Release\net7.0\Loginoperations.csproj.AssemblyReference.cache
+C:\akillisatis\backend\obj\Release\net7.0\Loginoperations.GeneratedMSBuildEditorConfig.editorconfig
+C:\akillisatis\backend\obj\Release\net7.0\Loginoperations.AssemblyInfoInputs.cache
+C:\akillisatis\backend\obj\Release\net7.0\Loginoperations.AssemblyInfo.cs
+C:\akillisatis\backend\obj\Release\net7.0\Loginoperations.csproj.CoreCompileInputs.cache
+C:\akillisatis\backend\obj\Release\net7.0\Loginoperations.MvcApplicationPartsAssemblyInfo.cs
+C:\akillisatis\backend\obj\Release\net7.0\Loginoperations.MvcApplicationPartsAssemblyInfo.cache
+C:\akillisatis\backend\obj\Release\net7.0\staticwebassets\msbuild.Loginoperations.Microsoft.AspNetCore.StaticWebAssets.props
+C:\akillisatis\backend\obj\Release\net7.0\staticwebassets\msbuild.build.Loginoperations.props
+C:\akillisatis\backend\obj\Release\net7.0\staticwebassets\msbuild.buildMultiTargeting.Loginoperations.props
+C:\akillisatis\backend\obj\Release\net7.0\staticwebassets\msbuild.buildTransitive.Loginoperations.props
+C:\akillisatis\backend\obj\Release\net7.0\staticwebassets.pack.json
+C:\akillisatis\backend\obj\Release\net7.0\staticwebassets.build.json
+C:\akillisatis\backend\obj\Release\net7.0\staticwebassets.development.json
+C:\akillisatis\backend\obj\Release\net7.0\scopedcss\bundle\Loginoperations.styles.css
+C:\akillisatis\backend\obj\Release\net7.0\Loginoperations.csproj.CopyComplete
+C:\akillisatis\backend\obj\Release\net7.0\Loginoperations.dll
+C:\akillisatis\backend\obj\Release\net7.0\refint\Loginoperations.dll
+C:\akillisatis\backend\obj\Release\net7.0\Loginoperations.pdb
+C:\akillisatis\backend\obj\Release\net7.0\Loginoperations.genruntimeconfig.cache
+C:\akillisatis\backend\obj\Release\net7.0\ref\Loginoperations.dll

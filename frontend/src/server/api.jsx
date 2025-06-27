@@ -1,6 +1,6 @@
 import axios from "axios";
 
-var url = 'https://proje2024.bsite.net/api/v1/'
+var url = 'https://emre-rntz.onrender.com/api/v1/'
 
 /* user işlemleri */
 

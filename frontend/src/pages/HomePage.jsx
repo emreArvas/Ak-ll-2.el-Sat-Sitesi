@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { getProducts } from '../server/api'
 import ProductsPage from '../component/ProductsPage'
 import { Box, Container, Grid, Typography, useTheme, useMediaQuery } from '@mui/material'
+import { useNavigate } from 'react-router-dom'
 
 const HomePage = () => {
     const [products, setProducts] = useState([]);
@@ -9,6 +10,7 @@ const HomePage = () => {
     const [filteredProducts, setFilteredProducts] = useState([]);
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+    const navigate = useNavigate();
    
     useEffect(() => {
         getProducts()
@@ -33,6 +35,10 @@ const HomePage = () => {
             setFilteredProducts(filtered);
         }
     }, [searchQuery, products]);
+
+    const handleProductClick = (productId) => {
+        navigate(`/product/${productId}`);
+    };
 
     return (
         <Container maxWidth="lg" sx={{ py: { xs: 2, sm: 3, md: 4 } }}>
@@ -126,7 +132,9 @@ const HomePage = () => {
                 {filteredProducts.length > 0 ? (
                     filteredProducts.map((product, index) => (
                         <Grid item xs={12} sm={6} md={4} lg={3} key={index}>
-                            <ProductsPage product={product} />
+                            <Box onClick={() => handleProductClick(product.id)} sx={{ cursor: 'pointer', width: '100%' }}>
+                                <ProductsPage product={product} />
+                            </Box>
                         </Grid>
                     ))
                 ) : (

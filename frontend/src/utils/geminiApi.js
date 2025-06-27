@@ -6,7 +6,9 @@ const genAI = new GoogleGenerativeAI(API_KEY);
 
 const analyzeImageWithAI = async (imageData) => {
     try {
-       
+        const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
+        
+        // Base64'ten Blob'a dönüştürme
         const base64Data = imageData.split(',')[1];
         const byteCharacters = atob(base64Data);
         const byteArrays = [];
@@ -25,10 +27,17 @@ const analyzeImageWithAI = async (imageData) => {
         
         const blob = new Blob(byteArrays, { type: 'image/jpeg' });
         
-        // Resim analizi simülasyonu
-        await new Promise(resolve => setTimeout(resolve, 2000)); // 2 saniye bekle
-        
-        return null; // Asla kullanılmayacak
+        // Resmi analiz et
+        const prompt = "Bu ürün resmini analiz et ve şu bilgileri ver:\n" +
+                      "1. Ürünün durumu (yeni, ikinci el, hasarlı vb.)\n" +
+                      "2. Ürünün markası/modeli (eğer görünüyorsa)\n" +
+                      "3. Ürünün genel kalitesi\n" +
+                      "4. Görünür kusurlar veya özellikler\n" +
+                      "Lütfen kısa ve öz cevaplar ver.";
+
+        const result = await model.generateContent([prompt, blob]);
+        const response = await result.response;
+        return response.text();
     } catch (error) {
         console.error('Error analyzing image:', error);
         return null;
@@ -56,6 +65,26 @@ export const analyzeImage = async (title, description) => {
         return price ? parseInt(price[0]) : null;
     } catch (error) {
         console.error("Error analyzing product:", error);
+        return null;
+    }
+};
+
+export const analyzeProductWithImage = async (imageData, title, description) => {
+    try {
+        // Resim analizi
+        const imageAnalysis = await analyzeImageWithAI(imageData);
+        
+        // Fiyat analizi
+        const priceAnalysis = await analyzeImage(title, description);
+        
+        // Sonuçları birleştir
+        return {
+            imageAnalysis,
+            priceAnalysis,
+            timestamp: new Date().toISOString()
+        };
+    } catch (error) {
+        console.error("Error in combined analysis:", error);
         return null;
     }
 }; 
