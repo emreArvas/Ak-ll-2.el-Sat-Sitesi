@@ -1,7 +1,7 @@
 # Akıllı Satış Projesi
 
 ## Proje Amacı
-Akıllı Satış, kullanıcıların ürün ekleyip satabildiği, diğer kullanıcıların ise bu ürünleri inceleyip sepete ekleyerek sipariş verebildiği modern bir e-ticaret platformudur. Proje; web, mobil ve RESTful API katmanlarından oluşur. Ayrıca, *Yapay Zeka ile Fiyat Analizi* özelliği sayesinde, kullanıcılar ürün eklerken benzer ürünlerin fiyatlarını analiz edebilir ve önerilen fiyat aralığını görebilirler.
+Akıllı Satış, kullanıcıların ürün ekleyip satabildiği, diğer kullanıcıların ise bu ürünleri inceleyip sepete ekleyerek sipariş verebildiği modern bir e-ticaret platformudur. Proje; web, mobil ve RESTful API katmanlarından oluşur. Ayrıca, *Yapay Zeka ile Fiyat Analizi* özelliği sayesinde, kullanıcılar ürün eklerken benzer ürünlerin fiyatlarını analiz edebilir ve önerilen fiyat aralığını görebilirler..
 
 ---
 
